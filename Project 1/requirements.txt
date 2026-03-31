@@ -1,0 +1,14 @@
+# Clip Manager — Dependencies
+# Install with:  pip install -r requirements.txt
+ 
+yt-dlp>=2024.1.0     # Platform URL resolution (YouTube, Vimeo, etc.)
+ 
+# These are included with Python — no install needed:
+#   tkinter   (UI)
+#   subprocess, threading, pathlib, urllib (core logic)
+ 
+# FFmpeg must be installed separately on your OS:
+#   macOS:    brew install ffmpeg
+#   Ubuntu:   sudo apt install ffmpeg
+#   Windows:  https://ffmpeg.org/download.html  (add to PATH)
+ 
